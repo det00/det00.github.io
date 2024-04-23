@@ -1,0 +1,398 @@
+@font-face {
+    font-family: cascadia;
+    src: url(../font/code/CascadiaCode-Regular.otf);
+}
+
+@font-face {
+    font-family: josefin;
+    src: url(../font/josefin/JosefinSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../font/roboto/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: koho;
+    src: url(../font/koho/KoHo-Regular.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/backgraung.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.home {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B37960;
+    margin: 20px;
+    border-radius: 25px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+
+.home h1 {
+    font-family: roboto;
+    font-size: 40px;
+
+
+}
+
+.home img {
+    height: 70px;
+    margin: 0px 20px;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul a {
+    margin-right: 5vh;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 20px;
+    color: #5D3838;
+    display: flex;
+}
+
+.menu ul a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: 50vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+    padding-top: 5%;
+}
+
+.container ul {
+    list-style: none;
+    width: 60vh;
+    height: 60vh;
+}
+
+.container ul li {
+    margin-bottom: 30px;
+}
+
+.container ul li:first-child {
+    color: #B37960;
+    font-family: koho;
+    font-size: 13vh;
+    text-shadow: 0 0 10px #B37960;
+}
+
+.container ul li:nth-child(2) {
+    font-size: 4vh;
+    font-family: josefin;
+    color: #CCCCCC;
+}
+
+.container ul li:nth-child(3) {
+    font-family: roboto;
+    font-size: 2.5vh;
+    color: #CCCCCC;
+}
+
+.container img {
+    height: 35vh;
+    border-radius: 25px;
+    margin: 4vh 5vh 10vh 5vh;
+}
+
+.about {
+    height: 43vw;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0% 10%;
+    padding-top: 5%;
+}
+
+.abimg {
+    position: relative;
+    margin: 0% 5% 10% 5%;
+}
+
+.about img {
+
+    height: 60vh;
+    border-radius: 40%;
+    margin: 4vh 0vh 10vh 20vh;
+}
+
+.about aside {
+    width: 40%;
+}
+
+.about aside h1 {
+    display: inline-block;
+    width: 600px;
+    font-family: koho;
+    color: #7E4444;
+    font-size: 13vh;
+    position: relative;
+    left: -30%;
+    text-shadow: 0 0 10px;
+}
+
+.about aside p {
+    width: 50vh;
+    margin-top: 5vh;
+    margin-right: 2%;
+    font-family: roboto;
+    font-size: 2.5vh;
+    color: #CCCCCC
+}
+
+.projects {
+    padding-top: 1%;
+    height: 60vw;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    margin: 0% 10%;
+    float: right;
+}
+
+.projects h2 {
+    font-size: 10vh;
+    font-family: koho;
+    color: #7E4444;
+    text-align: end;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 10px;
+}
+
+.projects article {
+    display: flex;
+    justify-content: space-around;
+    color: #5D3838;
+    font-family: koho;
+    font-size: 5vh;
+    margin-bottom: 2%;
+}
+
+.projects img {
+    height: 30vh;
+    border-radius: 30px;
+}
+
+.skills {
+    height: 60vw;
+    width: 80%;
+    display: inline-block;
+    justify-content: center;
+    margin: 0% 10%;
+    ;
+}
+
+.skills h3 {
+    font-size: 13vh;
+    color: #B37960;
+    font-family: koho;
+    margin-left: 10%;
+    text-shadow: 0 0 10px;
+}
+
+.skills section {
+    padding: 7vh;
+    width: 50%;
+    height: 15%;
+    float: left;
+}
+
+.lang {
+    font-size: 3vh;
+    color: #B37960;
+    font-family: koho;
+}
+
+.pbcont {
+    background-color: #b8a299;
+    width: 100%;
+    height: 30px;
+    border-radius: 12px;
+    margin: 12px;
+    color: white;
+    font-family: koho;
+    font-size: 140%;
+
+}
+
+.pbcss {
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.pbsql {
+    width: 60%;
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.pbhtml {
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+    width: 60%;
+}
+
+.pbora {
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+    width: 20%;
+}
+
+.pbjava {
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+    width: 60%;
+}
+
+.pbpy {
+    background-color: #B37960;
+    height: 100%;
+    border-radius: 12px;
+    width: 30%;
+}
+
+.contact {
+    height: 40vw;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.contact h2 {
+    color: #B37960;
+    font-family: koho;
+    font-size: 13vh;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0%;
+    text-shadow: 0 0 10px;
+}
+
+.contact form {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0%auto;
+}
+
+.contact li {
+    list-style: none;
+    width: 100%;
+}
+
+.contact label {
+    display: flex;
+    width: 100%;
+    display: block;
+    color: #794949;
+    font-family: koho;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+
+.contact input,
+#msg {
+    width: 55vw;
+    height: 4vh;
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #B37960;
+    font-family: koho;
+    font-size: 3vh;
+}
+
+#msg {
+    height: 20vh;
+}
+
+.contact button {
+    color: #7E4444;
+    background-color: #5d383800;
+    border-color: #5d383800;
+    display: inline-block;
+    justify-content: center;
+    font-size: 13vh;
+    font-family: koho;
+    width: 49%;
+}
+
+.contact button:hover {
+    text-shadow: 0 0 10px;
+}
+
+.fot {
+    display: flex;
+    justify-content: center;
+    height: 6vw;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+footer {
+    background-color: #B37960;
+    text-align: center;
+    height: 2vw;
+    width: 30%;
+    position: fixed;
+    bottom: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #B37960;
+}
+
+footer img {
+    width: 2vw;
+    margin: 0% 2%;
+}
+
+.but {
+    position: sticky;
+    width: 3vw;
+    height: 3vw;
+    top: 92%;
+    left: 70%;
+    background-color: #B37960;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #B37960;
+}
+
+.but img {
+    width: 2vw;
+    margin: 15%;
+}
